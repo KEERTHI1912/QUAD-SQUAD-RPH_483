@@ -27,8 +27,11 @@ A database in Azure PostgreSQL contains the coordinates of different cameras cat
        3. Video Processing: 
 The footage is processed to detect the contours of the objects in the video. This is done to enhance the quality of the video footage which could help in accurate prediction. 
 4. Real-time Monitoring and Reporting of Crime:
-This includes a YOLO model that detects crimes such as chain snatching, women's harassment, pickpockets, purse snatchers, etc. The YOLO model is trained using the number of video inputs of crimes and the model detects the real-time crime and alerts the nearby police and the control center immediately using various messaging protocols (eg. MQTT). 
-5. Displacement Control: 
+This includes a YOLO model that detects crimes such as chain snatching, women's harassment, pickpockets, purse snatchers, etc. The YOLO model is trained using the number of video inputs of crimes and the model detects the real-time crime and alerts the nearby police and the control center immediately using various messaging protocols (eg. MQTT).
+![image](https://github.com/KEERTHI1912/RJPOLICE_HACK_483_QUADSQUAD_6/assets/75976487/3751ed38-197e-47b3-af09-319e1d44fe16)
+![image](https://github.com/KEERTHI1912/RJPOLICE_HACK_483_QUADSQUAD_6/assets/75976487/4d8607fd-df63-4a14-b86a-9c7323357e1d)
+
+6. Displacement Control: 
 The displacement of the CCTV camera can be identified by implementing AI vision-based algorithms like the SIFT algorithm that can detect disorientation of camera angles or object intrusion by matching the coordinates and values of the original feed and the displaced feed.
 
 Software and Technology: 
@@ -40,7 +43,7 @@ Software and Technology:
 ● Microsoft Azure PostgreSQL
 4. Web App Development:
 Streamlit for primary deployment
-React.js and other javascript frameworks - full software deployment
+
 Team Members & Responsibilities: 
 KEERTHI U - Frontend Developer 
 ADITYA GURJALE S - ML Developer  
